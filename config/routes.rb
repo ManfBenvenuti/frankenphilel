@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'startup_framework_demo/index12'
+
   root 'pages#home'
   get 'about' => 'pages#about'
   get 'partners' => 'pages#partners'
