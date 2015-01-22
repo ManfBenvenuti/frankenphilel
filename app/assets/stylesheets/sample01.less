@@ -1,0 +1,43 @@
+/* {
+	outline: 1px solid red !important;
+}*/
+
+// There is a path to Startup framework
+@startup-basePath: "/startup-framework/";                                                       
+
+@import 'startup_framework';
+/* header */
+@import '@{startup-basePath}ui-kit/ui-kit-header/less/header-1.less';
+
+/* content */
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-4.less';
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-25.less';
+
+/* contact */
+@import '@{startup-basePath}ui-kit/ui-kit-contacts/less/contact-3.less';
+
+/* footer */
+@import '@{startup-basePath}ui-kit/ui-kit-footer/less/footer-6.less';
+
+.content-4, .footer-6 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.whity {
+	background-color:#fff !important; 
+}
+
+.opac {
+	opacity: 1 !important;
+}
+
+.contacts-3 {
+	background-color: #ecf0f1;
+}
+
+.content-4 .features > [class*="col-sm-"] > img:first-child {
+display: block;
+    margin-left: 25%;
+    margin-right: auto;
+}
