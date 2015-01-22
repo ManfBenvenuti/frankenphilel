@@ -1,6 +1,28 @@
-// Lo metto per sicurezza ma secondo me tutto questo CSS è inutile.
-// Credo che la classe hidden sia definita anche da qualche altra parte perchè funziona
-// anche senza questo file che la dichiara.
+// Prodotti
+.scaccomatto { margin: 10px 60px 10px 60px; }
+
+.quadrato { margin-top:30px; }
+
+
+.pointer { cursor: pointer; cursor: hand; }
+
+// Trittico "Progetti di Automation"
+.titolone { margin-top:50px; }
+
+.center { text-align: center; }
+
+.trittico {
+	margin-top:30px;
+	margin-left:60px;
+	margin-right:60px;
+	text-align:center;
+}
+
+.thumbnail-trittico { padding-top:30px; border:none;}
+
+.thumbnail-trittico > img { width:100px; }
+
+// Roba (forse inutile) per il mail-form.
 
 .hidden { display: none; }
 
