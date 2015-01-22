@@ -15,8 +15,11 @@
 /log/*
 !/log/.keep
 /tmp
+<<<<<<< HEAD
 .DS_Store
 
 
 .env
 Procfile
+=======
+>>>>>>> d4f0b70651b1f357432dc3047aed2bc5f4f1ef4c

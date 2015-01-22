@@ -33,5 +33,5 @@ class PagesController < ApplicationController
 
   def cableholder
   end
- 
+
 end
