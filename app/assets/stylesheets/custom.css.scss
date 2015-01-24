@@ -1,3 +1,17 @@
+
+body { 
+	font-size:18px !important;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+h3 { font-size:24px !important; font-weight:bold !important }
+
+h2 { font-size:42px !important; font-weight:normal !important; }
+
+p { text-align:justify; color: #2c3e50; }
+
+.container-fluid h2 { margin-top:45px; } 
+
 // Prodotti
 .scaccomatto { margin: 10px 60px 10px 60px; }
 
@@ -5,9 +19,6 @@
 
 
 .pointer { cursor: pointer; cursor: hand; }
-
-// Trittico "Progetti di Automation"
-.titolone { margin-top:50px; }
 
 .center { text-align: center; }
 
@@ -22,10 +33,14 @@
 
 .thumbnail-trittico > img { width:100px; }
 
+.thumbnail-trittico p { margin:15px 15px 0 15px; }
+
+.equal { height: 364px; }
+
+
 // Roba (forse inutile) per il mail-form.
 
 .hidden { display: none; }
-
 /*flash*/
 
 .alert-error {
