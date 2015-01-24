@@ -1,4 +1,7 @@
 
+.content-4, .content-4 .col-sm-4 { opacity:1 !important; }
+
+
 body { 
 	font-size:18px !important;
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
@@ -11,6 +14,17 @@ h2 { font-size:42px !important; font-weight:normal !important; }
 p { text-align:justify; color: #2c3e50; }
 
 .container-fluid h2 { margin-top:45px; } 
+
+.container h2 { color:#fff; }
+
+
+.smaller { height:280px !important;}
+
+#clear { clear:both; }
+
+/* HEADER */
+
+.caption .container h2 { margin-bottom:-90px; }
 
 // Prodotti
 .scaccomatto { margin: 10px 60px 10px 60px; }
@@ -36,6 +50,49 @@ p { text-align:justify; color: #2c3e50; }
 .thumbnail-trittico p { margin:15px 15px 0 15px; }
 
 .equal { height: 364px; }
+
+
+/*-- CONSTRUCTION --*/
+
+
+.col-xs-8 ul li { 
+	color: #2c3e50; 
+	line-height:30pt; 
+}
+
+
+
+
+/*-- SWITCHBOARDS --*/
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.col-sm-15 > .thumbnail-trittico p { text-align:justify; margin-left:20%; }
+
+.col-sm-15 > .thumbnail-trittico > img { float:left; margin-top:70px; }
+
+.btn-switchb { margin-top:15px; float:right;}
+
+
+
+
+/*-- CONSTRUCTION --*/
+
+
+.col-md-7 ul li { 
+	color: #2c3e50; 
+	line-height:30pt; 
+}
+
 
 
 // Roba (forse inutile) per il mail-form.

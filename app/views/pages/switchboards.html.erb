@@ -1,15 +1,12 @@
-<section class="header-1-sub">
+<section class="header-1-sub smaller">
     <div id="pt-main" class="page-transitions pt-perspective">
         <div class="pt-page pt-page-1">
             <div class="background">
                 &nbsp;
             </div>
             <div class="caption">
-                <div class="container">
-                    <h3>Since 1990 we produce cutting-edge electromechanical equipments</h3>
-                    <p class="lead">
-                        Our products quality is ISO 9001 certified by CSQ
-                    </p>
+                <div class="container center">
+                    <h2>Switchboards Department</h2>
                 </div>
             </div>
         </div>
@@ -18,29 +15,188 @@
 
 
 <section>
-  <div class="container-fluid" style="color:#000;">
-<br/>
+  <div class="container-fluid">
+		<br/>
     <div class="row scaccomatto">
       <div class="col-md-4 quadrato" style="padding-left:40px;">
         <img src="assets/switch/azion_ico.JPG" class="img-responsive img-rounded pointer" width="300" alt="Switchboards" data-toggle="modal" data-target="#Modal_switch1" data-toggle="tooltip" data-placement="auto bottom" data-container="img" title="Click for a larger prevew">
+        <br/>
         <img src="assets/switch/bt_mcc_ico.JPG" class="img-responsive img-rounded pointer" width="300" alt="Switchboards" data-toggle="modal" data-target="#Modal_switch2" data-toggle="tooltip" data-placement="auto bottom" data-container="img" title="Click for a larger prevew">
+        <br/>
         <img src="assets/switch/med_tens_ico.JPG" class="img-responsive img-rounded pointer" width="300" alt="Switchboards" data-toggle="modal" data-target="#Modal_switch3" data-toggle="tooltip" data-placement="auto bottom" data-container="img" title="Click for a larger prevew">
       </div>
-      <div class="col-md-7" style="text-align:justify;">
-       <h3>SWITCHBOARDS DEPARTMENT</h3>
-        <p style="margin-right:100px;">
-        	</br>
-					This activity developped on extendible, flexible and standard modules is capable to satisfy any particular need and request. 
-					</br></br>
-					Furthermore, we are equipped to produce electrical, construction design and to manufacture customized products according to given technical specifications.
+      <div class="col-md-7" style="margin-right:100px;">
+      </br>
+	      <p>This activity developed on extendible, flexible and standard modules is capable to satisfy any particular need and 	request.</br>
+				</br>
+				Furthermore, we are equipped to produce electrical, construction design and to manufacture customized products according to given technical specifications.</p>
+				<br/>
+				<br/>
+				<div role="tabpanel"> <!-- Tabs per prodotti -->
+				  <ul class="nav nav-tabs" role="tablist"> <!-- Nav tabs -->
+				    <li role="presentation" class="active"><a href="#medium" aria-controls="home" role="tab" data-toggle="tab">Medium Voltage</a></li>
+				    <li role="presentation"><a href="#low" aria-controls="profile" role="tab" data-toggle="tab">Low Voltage</a></li>
+				    <li role="presentation"><a href="#consoles" aria-controls="messages" role="tab" data-toggle="tab">Consoles, Drives & Plc</a></li>
+				  </ul>
 
+				  <div class="tab-content"> <!-- Tab panes -->
 
-        </p>
+				    <div role="tabpanel" class="tab-pane active" id="medium"> <!-- Medium Voltage -->
+				    	<br/><br/>
+							<h3 class="center titolone">MEDIUM VOLTAGE SWITCHBOARDS</h3>
+							<div class="trittico">
+								<div class="row">
+								  <div class="col-sm-15 col-md-13">
+								    <div class="thumbnail thumbnail-trittico">
+								      <img src="assets/med_volt/Uniclad.JPG" alt="Uniclad-C">
+								      <div class="caption">
+								        <h4>UNICLAD-C</h4>
+								        <p>
+								        	A.C. metal-clad air insulated switchgear and controlgear, in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.
+								        </p>
+								        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success btn-switchb" do %>
+						              Download Document
+						            <% end %>
+						            <div id="clear"></div>
+								      </div>
+								    </div>
+								  </div>
+								  <div class="col-sm-15 col-md-13">
+								    <div class="thumbnail thumbnail-trittico">
+								      <img src="assets/med_volt/Unibloc.JPG" alt="Unibloc-C">
+								      <div class="caption">
+								        <h4>UNIBLOC-C</h4>
+								        <p>A.C. metal enclosed air insulated switchgear and controlgear, in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.</p>
+								        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success btn-switchb" do %>
+						              Download Document
+						            <% end %>
+						            <div id="clear"></div>
+								      </div>
+								    </div>
+								  </div>
+								  <div class="col-sm-15 col-md-13">
+								    <div class="thumbnail thumbnail-trittico">
+								      <img src="assets/med_volt/Mcc.JPG" alt="Mcc-C">
+								      <div class="caption">
+								        <h4>MCC-C</h4>
+								        <p>A.C. metal-clad air insulated switchgear and controlgear, in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.</p>
+								        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success btn-switchb" do %>
+						              Download Document
+						            <% end %>
+						            <div id="clear"></div>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+							</div>
+				    </div> <!-- /Medium Voltage -->
+
+				    <div role="tabpanel" class="tab-pane" id="low"> <!-- Low Voltage -->
+				    	<br/><br/>
+				    	<h3 class="center titolone">LOW VOLTAGE SWITCHBOARDS</h3>
+							<div class="trittico">
+								<div class="row">
+								  <div class="col-sm-15 col-md-13">
+								    <div class="thumbnail thumbnail-trittico">
+								      <img src="assets/low_volt/Pmcc-p.JPG" alt="Pmcc-P">
+								      <div class="caption">
+								        <h4>PMCC-P</h4>
+								        <p>
+								        	Type-tested low-voltage switchgear and controlgear assembly (TTA), in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.
+								        </p>
+								        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success btn-switchb" do %>
+						              Download Document
+						            <% end %>
+						            <div id="clear"></div>
+								      </div>
+								    </div>
+								  </div>
+								  <div class="col-sm-15 col-md-13">
+								    <div class="thumbnail thumbnail-trittico">
+								      <img src="assets/low_volt/Pmcc-m.JPG" alt="Pmcc-C">
+								      <div class="caption">
+								        <h4>PMCC-M</h4>
+								        <p>Type-tested low-voltage switchgear and controlgear assembly (TTA), in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.</p>
+								        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success btn-switchb" do %>
+						              Download Document
+						            <% end %>
+						            <div id="clear"></div>
+								      </div>
+								    </div>
+								  </div>
+								  <div class="col-sm-15 col-md-13">
+								    <div class="thumbnail thumbnail-trittico">
+								      <img src="assets/low_volt/Modular-c.JPG" alt="Modular-C">
+								      <div class="caption">
+								        <h4>MODULAR-C</h4>
+								        <p>Type-tested low-voltage switchgear and controlgear assembly (TTA), in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.</p>
+								        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success btn-switchb" do %>
+						              Download Document
+						            <% end %>
+						            <div id="clear"></div>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+							</div>	
+				    </div> <!-- /Low Voltage -->
+
+				    <div role="tabpanel" class="tab-pane" id="consoles"> <!-- Consoles -->
+				    	<br/><br/>
+				    	<h3 class="center titolone">CONSOLES, DRIVES & PLC</h3>
+							<div class="trittico">
+								<div class="row">
+								  <div class="col-sm-15 col-md-13">
+								    <div class="thumbnail thumbnail-trittico">
+								      <img src="assets/cons_drv_plc/Cons_nave_ico.JPG" alt="Console">
+								      <div class="caption">
+								        <h4>CONTROL ROOM CONSOLES</h4>
+								        <p>
+								        	Consoles and control desks equipped with mosaic and mimic panels, in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.
+								        </p>
+								        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success btn-switchb" do %>
+						              Download Document
+						            <% end %>
+						            <div id="clear"></div>
+								      </div>
+								    </div>
+								  </div>
+								  <div class="col-sm-15 col-md-13">
+								    <div class="thumbnail thumbnail-trittico">
+								      <img src="assets/cons_drv_plc/azion_ico2.JPG" alt="Drive">
+								      <div class="caption">
+								        <h4>AC & DC DRIVE SWITCHBOARDS</h4>
+								        <p>DC motor drive or AC motor inverter switchboards in the range of power 0.2 to 750 KW, in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.</p>
+								        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success btn-switchb" do %>
+						              Download Document
+						            <% end %>
+						            <div id="clear"></div>
+								      </div>
+								    </div>
+								  </div>
+								  <div class="col-sm-15 col-md-13">
+								    <div class="thumbnail thumbnail-trittico">
+								      <img src="assets/cons_drv_plc/Plc_est.JPG" alt="Plc">
+								      <div class="caption">
+								        <h4>CONTROL SWITCHBOARDS WITH PLC</h4>
+								        <p>Industrial automation control switchboards equipped with Programmable Controller (PLC) from world leaders suppliers (Rockwell, Siemens, General Electric, Abb, etc.) complete with power supply section, protection circuitry and connection to standard networks or proprietory Bus, in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.</p>
+								        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success btn-switchb" do %>
+						              Download Document
+						            <% end %>
+						            <div id="clear"></div>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+							</div>
+				    </div> <!-- /Consoles -->
+				  </div> <!-- /Tab panes -->
+				</div> <!-- /Tabs per prodotti -->
       </div>
     </div>
-
-   </div>
+  </div>
 </section>
+
 
 <!-- Tutti i Modal per ingrandire le immagini -->
 <div class="modal" id="Modal_switch1">
@@ -84,161 +240,3 @@
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-
-
-
-<div class="container-fluid" style="background:#F5F5F5; color:#fff;">
-
-	<h1 class="center titolone">
-	<strong>Medium Voltage Switchboards</strong></h1>
-
-	<div class="trittico">
-		<div class="row">
-		  <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail thumbnail-trittico">
-		      <img src="assets/med_volt/Uniclad.JPG" alt="Uniclad-C">
-		      <div class="caption">
-		        <h3>UNICLAD-C</h3>
-		        <p>
-		        	A.C. metal-clad air insulated switchgear and controlgear, in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.
-		        </p>
-		        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success" do %>
-              Download Document
-            <% end %>
-		      </div>
-		    </div>
-		  </div>
-
-		  <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail thumbnail-trittico">
-		      <img src="assets/med_volt/Unibloc.JPG" alt="Unibloc-C">
-		      <div class="caption">
-		        <h3>UNIBLOC-C</h3>
-		        <p>A.C. metal enclosed air insulated switchgear and controlgear, in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.</p>
-		        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success" do %>
-              Download Document
-            <% end %>
-		      </div>
-		    </div>
-		  </div>
-
-		  <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail thumbnail-trittico">
-		      <img src="assets/med_volt/Mcc.JPG" alt="Mcc-C">
-		      <div class="caption">
-		        <h3>MCC-C</h3>
-		        <p>A.C. metal-clad air insulated switchgear and controlgear, in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.</p>
-		        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success" do %>
-              Download Document
-            <% end %>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-	</div>
-
-</div>
-
-<div class="container-fluid" style="background:#F5F5F5; color:#fff;">
-
-	<h1 class="center titolone">
-	<strong>Low Voltage Switchboards</strong></h1>
-
-	<div class="trittico">
-		<div class="row">
-		  <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail thumbnail-trittico">
-		      <img src="assets/low_volt/Pmcc-p.JPG" alt="Pmcc-P">
-		      <div class="caption">
-		        <h3>PMCC-P</h3>
-		        <p>
-		        	Type-tested low-voltage switchgear and controlgear assembly (TTA), in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.
-		        </p>
-		        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success" do %>
-              Download Document
-            <% end %>
-		      </div>
-		    </div>
-		  </div>
-
-		  <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail thumbnail-trittico">
-		      <img src="assets/low_volt/Pmcc-m.JPG" alt="Pmcc-C">
-		      <div class="caption">
-		        <h3>PMCC-M</h3>
-		        <p>Type-tested low-voltage switchgear and controlgear assembly (TTA), in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.</p>
-		        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success" do %>
-              Download Document
-            <% end %>
-		      </div>
-		    </div>
-		  </div>
-
-		  <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail thumbnail-trittico">
-		      <img src="assets/low_volt/Modular-c.JPG" alt="Modular-C">
-		      <div class="caption">
-		        <h3>MODULAR-C</h3>
-		        <p>Type-tested low-voltage switchgear and controlgear assembly (TTA), in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.</p>
-		        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success" do %>
-              Download Document
-            <% end %>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-	</div>
-
-</div>
-
-<div class="container-fluid" style="background:#F5F5F5; color:#fff;">
-
-	<h1 class="center titolone">
-	<strong>Consoles, Drives & Plc</strong></h1>
-
-	<div class="trittico">
-		<div class="row">
-		  <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail thumbnail-trittico">
-		      <img src="assets/cons_drv_plc/Cons_nave_ico.JPG" alt="Console">
-		      <div class="caption">
-		        <h3>CONTROL ROOM CONSOLES</h3>
-		        <p>
-		        	Consoles and control desks equipped with mosaic and mimic panels, in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.
-		        </p>
-		        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success" do %>
-              Download Document
-            <% end %>
-		      </div>
-		    </div>
-		  </div>
-
-		  <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail thumbnail-trittico">
-		      <img src="assets/cons_drv_plc/azion_ico2.JPG" alt="Drive">
-		      <div class="caption">
-		        <h3>AC & DC DRIVE SWITCHBOARDS</h3>
-		        <p>DC motor drive or AC motor inverter switchboards in the range of power 0.2 to 750 KW, in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.</p>
-		        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success" do %>
-              Download Document
-            <% end %>
-		      </div>
-		    </div>
-		  </div>
-
-		  <div class="col-sm-6 col-md-4">
-		    <div class="thumbnail thumbnail-trittico">
-		      <img src="assets/cons_drv_plc/Plc_est.JPG" alt="Plc">
-		      <div class="caption">
-		        <h3>CONTROL SWITCHBOARDS WITH PLC</h3>
-		        <p>Industrial automation control switchboards equipped with Programmable Controller (PLC) from world leaders suppliers (Rockwell, Siemens, General Electric, Abb, etc.) complete with power supply section, protection circuitry and connection to standard networks or proprietory Bus, in compliance with CEI Standards, IEC Publications and the Accident Prevention Rules.</p>
-		        <%= link_to '/certificates/ISO.pdf', target: "_blank", :class => "btn btn-large btn-success" do %>
-              Download Document
-            <% end %>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-	</div>
-
-</div>
