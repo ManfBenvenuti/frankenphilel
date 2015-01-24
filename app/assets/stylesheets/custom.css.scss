@@ -1,5 +1,5 @@
 
-.content-4, .content-4 .col-sm-4 { opacity:1 !important; }
+.content-4, .content-4 .col-sm-4, .content-4 h3 { opacity:1 !important; }
 
 
 body { 
@@ -17,6 +17,7 @@ p { text-align:justify; color: #2c3e50; }
 
 .container h2 { color:#fff; }
 
+td p { text-align:left; }
 
 .smaller { height:280px !important;}
 
@@ -25,6 +26,22 @@ p { text-align:justify; color: #2c3e50; }
 /* HEADER */
 
 .caption .container h2 { margin-bottom:-90px; }
+
+
+/*-- HOME --*/
+
+
+.homey h2 { margin-bottom:-20px !important;}
+
+.content-4 h2 { color:#2c3e50; margin-bottom:0px; }
+
+.content-25 h2 { color:#2c3e50; margin-bottom:0px; }
+
+.content-25 { padding-top:40px !important; }
+
+.contacts-3 { padding-top:40px !important; }
+
+.contacts-3 h2 { color:#2c3e50; }
 
 // Prodotti
 .scaccomatto { margin: 10px 60px 10px 60px; }
