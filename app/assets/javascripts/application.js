@@ -20,7 +20,7 @@
 //= require jquery.ui.effect
 //= require jquery_ujs
 //= require twitter/bootstrap
-//= require flat-ui
+//= require flatui
 //= require startup_framework
 //= require turbolinks
 //= require_tree .
