@@ -7,14 +7,17 @@ body {
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
-h3 { font-size:24px !important; font-weight:bold !important }
+h1 { font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important; font-size:48px !important; font-weight:normal !important; }
 
-h2 { font-size:42px !important; font-weight:normal !important; }
+h2 { font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important; font-size:42px !important; font-weight:normal !important; }
 
-p { text-align:justify; color: #2c3e50; }
+h3 { font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important; font-size:24px !important; font-weight:bold !important }
+
+p { font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important; text-align:justify; color: #2c3e50; }
 
 .container-fluid h2 { margin-top:45px; } 
 
+.container h1 { color:#fff; }
 .container h2 { color:#fff; }
 
 td p { text-align:left; }
@@ -28,8 +31,13 @@ td p { text-align:left; }
 .caption .container h2 { margin-bottom:-90px; }
 
 
+
 /*-- HOME --*/
 
+.header-1-sub .pt-page-1 .home-background {
+background-image: url(/assets/home1.jpg) !important;
+opacity:0.4 !important;
+}
 
 .homey h2 { margin-bottom:-20px !important;}
 
@@ -66,10 +74,29 @@ td p { text-align:left; }
 
 .thumbnail-trittico p { margin:15px 15px 0 15px; }
 
-.equal { height: 364px; }
+.equal { height: 404px; }
 
+
+/*-- ABOUT --*/
+
+.header-1-sub .pt-page-1 .about-background {
+background-image: url(/assets/about.jpg) !important;
+opacity:0.4 !important;
+}
+
+/*-- AUTOMATION --*/
+
+.header-1-sub .pt-page-1 .automation-background {
+background-image: url(/assets/automationss.jpg) !important;
+opacity:0.4 !important;
+}
 
 /*-- CONSTRUCTION --*/
+
+.header-1-sub .pt-page-1 .construction-background {
+background-image: url(/assets/construction.jpg) !important;
+opacity:0.4 !important;
+}
 
 
 .col-xs-8 ul li { 
@@ -77,8 +104,36 @@ td p { text-align:left; }
 	line-height:30pt; 
 }
 
+.col-md-7 ul li { 
+	color: #2c3e50; 
+	line-height:30pt; 
+}
+
+.lined { 
+    		margin-bottom:40px !important;
+    	}
+
+.lined img { 
+    		display:inline-block; 
+    		margin-bottom:5px;
+    	}
+
+.aligno {margin-top:15px;}
+
+/*-- CABLEHOLDER --*/
+
+.header-1-sub .pt-page-1 .cableholder-background {
+background-image: url(/assets/cableholder.jpg) !important;
+opacity:0.4 !important;
+}
 
 
+/*-- FITTINGS --*/
+
+.header-1-sub .pt-page-1 .fittings-background {
+background-image: url(/assets/fittings.jpg) !important;
+opacity:0.4 !important;
+}
 
 /*-- SWITCHBOARDS --*/
 
@@ -95,20 +150,34 @@ td p { text-align:left; }
 
 .col-sm-15 > .thumbnail-trittico p { text-align:justify; margin-left:20%; }
 
-.col-sm-15 > .thumbnail-trittico > img { float:left; margin-top:70px; }
+.col-sm-15 > .thumbnail-trittico > img { float:left; margin-top:70px; margin-right:10px;}
 
 .btn-switchb { margin-top:15px; float:right;}
 
-
-
-
-/*-- CONSTRUCTION --*/
-
-
-.col-md-7 ul li { 
-	color: #2c3e50; 
-	line-height:30pt; 
+.header-1-sub .pt-page-1 .switchboards-background {
+background-image: url(/assets/switchboards.jpg) !important;
+opacity:0.4 !important;
 }
+
+
+/*-- CLIENTS --*/
+
+.header-1-sub .pt-page-1 .clients-background {
+background-image: url(/assets/clients.jpg) !important;
+opacity:0.4 !important;
+}
+
+
+/*-- CONTACTS --*/
+
+.header-1-sub .pt-page-1 .contacts-background {
+background-image: url(/assets/contacts.jpg) !important;
+opacity:0.4 !important;
+}
+
+
+
+
 
 
 
