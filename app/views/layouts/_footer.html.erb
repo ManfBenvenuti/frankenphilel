@@ -8,15 +8,9 @@
                         </div>
                         <div class="col-sm-2">
                             <ul>
-                                <li>
-                                    <a href="#">About</a>
-                                </li>
-                                <li>
-                                    <a href="#">Partners</a>
-                                </li>
-                                <li>
-                                    <a href="#">Contacts</a>
-                                </li>
+                                <li> <%= link_to "About", about_path %> </li>
+                                <li> <%= link_to "Clients", clients_path %> </li>
+                                <li> <%= link_to "Contacts", contacts_path %> </li>
                             </ul>
                         </div>
                         <div class="col-sm-1">
@@ -24,21 +18,11 @@
                         </div>
                         <div class="col-sm-2">
                             <ul>
-                                <li>
-                                    <a href="#">Automation</a>
-                                </li>
-                                <li>
-                                    <a href="#">Switchboards</a>
-                                </li>
-                                <li>
-                                    <a href="#">Electrical Construction</a>
-                                </li>
-                                <li>
-                                    <a href="#">Fitting HV, MV</a>
-                                </li>
-                                <li>
-                                    <a href="#">Cableholder Trolleys</a>
-                                </li>
+                                <li> <%= link_to "Automation", automation_path %> </li>
+                                <li> <%= link_to "Switchboards", switchboards_path %> </li>
+                                <li> <%= link_to "Electrical Construction", construction_path %> </li>
+                                <li> <%= link_to "Fittings HV, MV", fittings_path %> </li>
+                                <li> <%= link_to "Cableholder Trolleys", cableholder_path %> </li>
                             </ul>
                         </div>
                         <div class="col-sm-3" style="padding-left:80px;"> 
@@ -47,7 +31,7 @@
                     </nav>
                     <div class="col-sm-3">
                         <div>
-                            <a class="brand" href="#">Philip Electric</a>
+                            <%= link_to "Philip Electric", root_path, class: "brand" %>
                             <p style="font-size:16px;"> Copyright &copy; 2014<br/>Philip Electric & Co. Srl<br/> RO33543658 </p>
                         </div>
                     </div>

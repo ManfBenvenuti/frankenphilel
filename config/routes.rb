@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :utente_ospites
   get 'startup_framework_demo/index12'
 
   root 'pages#home'
