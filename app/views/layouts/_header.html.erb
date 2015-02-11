@@ -6,16 +6,12 @@
             <div class="navbar col-sm-12 navbar-fixed-top" role="navigation">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle"></button>
-                    <a class="brand" href="/"> Philip Electric</a>
+                    <%= link_to "Philip Electric", root_path, class: "brand" %>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav pull-right">
-                        <li>
-                            <a href="/">HOME</a>
-                        </li>
-                        <li>
-                            <a href="about">ABOUT</a>
-                        </li>
+                        <li> <%= link_to "HOME", root_path %> </li>
+                        <li> <%= link_to "ABOUT", about_path %> </li>
                         
                         <li role ="presentation" class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PRODUCTS<span class="caret"></span></a>
@@ -27,24 +23,10 @@
                             <li><a href="cableholder">CABLEHOLDER TROLLEYS</a></li>
                           </ul>
         
-                        <li>
-                            <a href="clients">CLIENTS</a>
-                        </li>
-                        <li>
-                            <a href="contacts">CONTACTS</a>
-                        </li>
+                        <li> <%= link_to "CLIENTS", clients_path %> </li>
+                        <li> <%= link_to "CONTACTS", contacts_path%> </li>
                     </ul>
-                    <ul class="subnav">
-                        <li>
-                            <a href="about">About</a>
-                        </li>
-                        <li>
-                            <a href="clients">Clients</a>
-                        </li>
-                        <li>
-                            <a href="contacts">Contacts</a>
-                        </li>
-                    </ul>
+
                 </div>
             </div>
         </div>

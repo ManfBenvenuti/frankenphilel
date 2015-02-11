@@ -1,4 +1,4 @@
-//= require jquery.ui.touch-punch.min
+---------------//= require jquery.ui.touch-punch.min
 //= require bootstrap-select
 //= require bootstrap-switch
 //= require flatui-checkbox
