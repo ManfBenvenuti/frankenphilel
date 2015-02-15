@@ -28,8 +28,6 @@
 // Example:
 // @link-color: #ff0000;
 
-.content-4, .content-4 .col-sm-4, .content-4 h3 { opacity:1 ; }
-
 
 body { 
 	font-size:18px ;
@@ -44,6 +42,8 @@ h3 { font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif ; font-
 
 p { font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif ; text-align:justify; color: #2c3e50; }
 
+.content-4, .content-4 .col-sm-4, .content-4 h3 { opacity:1 ; }
+
 .container-fluid h2 { margin-top:45px; } 
 
 .container h1 { color:#fff; }
@@ -54,11 +54,6 @@ td p { text-align:left; }
 .smaller { height:280px ;}
 
 #clear { clear:both; }
-
-/* HEADER */
-
-.caption .container h2 { margin-bottom:-90px; }
-
 
 
 /*-- HOME --*/
@@ -81,7 +76,6 @@ opacity:0.4 ;
 .contacts-3 h2 { color:#2c3e50; }
 
 // Prodotti
-.scaccomatto { margin: 10px 60px 10px 60px; }
 
 .quadrato { margin-top:30px; }
 
@@ -89,13 +83,6 @@ opacity:0.4 ;
 .pointer { cursor: pointer; cursor: hand; }
 
 .center { text-align: center; }
-
-.trittico {
-	margin-top:30px;
-	margin-left:60px;
-	margin-right:60px;
-	text-align:center;
-}
 
 .thumbnail-trittico { padding-top:30px; border:none;}
 
@@ -119,6 +106,8 @@ opacity:0.4 ;
 background-image: url(/assets/automationss.jpg) ;
 opacity:0.4 ;
 }
+
+.container-fluid h2 { color:#000; }
 
 /*-- CONSTRUCTION --*/
 
@@ -281,33 +270,60 @@ text-align: left;
     	.content-4 h2 { margin-top:-20px; }
     	.content-4 .features > [class*="col-sm-"] > img:first-child { margin-left:31%; }
     	.infram { margin-top:-135px; }
+        .content-25 .opac { text-align:center; }
+        .content-25 p { margin-right:20px; }
+        .caption .container h2 { margin-bottom:-40px; font-size:28px !important;}
+        .festone img {margin-left:10px;}
+        .scaccomatto .lined { margin-left:3%;}
+        .trittico {
+    margin-top:30px;
+    text-align:center;
+    margin-left:0px;
+    margin-right:0px;
+    }
+    .tab-content table td p span { font-size:13px; }
     }
 
     /*--- Extra Small Devices, Phones ---*/ 
     @media only screen and (min-width : 480px) {
    	
-    	.container h1 { font-size:32px ; }
+    	.container h1 { font-size:32px; }
     	.header-1-sub .lead {font-size:20px; }
-
-   	}
+        .caption .container h2 { margin-bottom:-90px; font-size:28px !important; }
+   	   .festone img {margin-left:0px;}
+       .tab-content table td p span { font-size:16px; }
+       }
 
     /*--- Small Devices, Tablets ---*/
     @media only screen and (min-width : 768px) {
   	
   		.container h1 { font-size:40px ; }
+        .caption .container h2 { font-size:36px !important; }
   		.header-1-sub .lead {font-size:24px; }
+        .content-25 .opac img { margin-top:50px; }
+        .tab-content table td p span { font-size:18px; }
 
-  	}
+    .trittico {
+    margin-top:30px;
+    margin-left:60px;
+    margin-right:60px;
+    text-align:center;
+}
+    
+    }
 
     /*--- Medium Devices, Desktops ---*/
     @media only screen and (min-width : 992px) {
   
     	.header-1-sub .page-transitions .caption { bottom:100px ; } 
     	.container h1 { font-size:48px ; }
+        .caption .container h2 { font-size:42px !important; }
     	.header-1-sub .lead {font-size:28px; }
     	.infram { margin-top:0px; }
-
-  	}
+        .nav { padding-right:0px; }
+        .festone { padding-left:40px; } 
+        .scaccomatto { margin: 10px 60px 10px 60px; }
+}
 
     /*--- Large Devices, Wide Screens ---*/
     @media only screen and (min-width : 1200px) {
