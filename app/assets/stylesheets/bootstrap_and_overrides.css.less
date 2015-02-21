@@ -1,318 +1,450 @@
-@import "twitter/bootstrap/bootstrap";
 
-// Set the correct sprite paths
-@iconSpritePath: image-url("twitter/bootstrap/glyphicons-halflings.png");
-@iconWhiteSpritePath: image-url("twitter/bootstrap/glyphicons-halflings-white.png");
+/*==========  BOOTSTRAP  ==========*/
 
-// Set the Font Awesome (Font Awesome is default. You can disable by commenting below lines)
-@fontAwesomeEotPath: asset-url("fontawesome-webfont.eot");
-@fontAwesomeEotPath_iefix: asset-url("fontawesome-webfont.eot?#iefix");
-@fontAwesomeWoffPath: asset-url("fontawesome-webfont.woff");
-@fontAwesomeTtfPath: asset-url("fontawesome-webfont.ttf");
-@fontAwesomeSvgPath: asset-url("fontawesome-webfont.svg#fontawesomeregular");
+    @import "twitter/bootstrap/bootstrap";
 
-// Font Awesome
-@import "fontawesome/font-awesome";
+/*==========  /BOOTSTRAP  ==========*/
 
-// Glyphicons
-//@import "twitter/bootstrap/sprites.less";
 
-// Your custom LESS stylesheets goes here
-//
-// Since bootstrap was imported above you have access to its mixins which
-// you may use and inherit here
-//
-// If you'd like to override bootstrap's own variables, you can do so here as well
-// See http://twitter.github.com/bootstrap/customize.html#variables for their names and documentation
-//
-// Example:
-// @link-color: #ff0000;
+/*==========  ICONS  ==========*/
 
+/*--- Sprite ---*/ 
 
-body { 
-	font-size:18px ;
-	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif ;
-}
+    @iconSpritePath: image-url("twitter/bootstrap/glyphicons-halflings.png");
+    @iconWhiteSpritePath: image-url("twitter/bootstrap/glyphicons-halflings-white.png");
 
-h1 { font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif ; font-size:48px ; font-weight:normal ; }
+/*--- /Sprite ---*/ 
 
-h2 { font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:42px; font-weight:normal; }
 
-h3 { font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif ; font-size:24px ; font-weight:bold  }
+/*--- Font Awesome ---*/ 
 
-p { font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif ; text-align:justify; color: #2c3e50; }
+    @fontAwesomeEotPath: asset-url("fontawesome-webfont.eot");
+    @fontAwesomeEotPath_iefix: asset-url("fontawesome-webfont.eot?#iefix");
+    @fontAwesomeWoffPath: asset-url("fontawesome-webfont.woff");
+    @fontAwesomeTtfPath: asset-url("fontawesome-webfont.ttf");
+    @fontAwesomeSvgPath: asset-url("fontawesome-webfont.svg#fontawesomeregular");
 
-.content-4, .content-4 .col-sm-4, .content-4 h3 { opacity:1 ; }
+    @import "fontawesome/font-awesome";
 
-.container-fluid h2 { margin-top:45px; } 
+/*--- /Font Awesome ---*/ 
 
-.container h1 { color:#fff; }
-.container h2 { color:#fff; }
 
-td p { text-align:left; }
+/*--- Glyphicons ---*/ 
 
-.smaller { height:280px ;}
+    //@import "twitter/bootstrap/sprites.less";
 
-#clear { clear:both; }
+/*--- /Glyphicons ---*/ 
 
 
-/*-- HOME --*/
+/*==========  /ICONS  ==========*/
 
-.header-1-sub .pt-page-1 .home-background {
-background-image: url(/assets/home1.jpg) ;
-opacity:0.4 ;
-}
 
-.homey h2 { margin-bottom:-20px ;}
+/*==========  GENERAL  ==========*/
 
-.content-4 h2 { color:#2c3e50; margin-bottom:0px; }
+    body { 
+    	font-size:18px;
+    	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
 
-.content-25 h2 { color:#2c3e50; margin-bottom:0px; }
+    h1 { 
+        font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+        font-size:48px; 
+        font-weight:normal; 
+    }
 
-.content-25 { padding-top:40px ; }
+    h2 { 
+        font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+        font-size:42px; 
+        font-weight:normal; 
+    }
 
-.contacts-3 { padding-top:40px ; }
+    h3 { 
+        font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+        font-size:24px; 
+        font-weight:bold;  
+    }
 
-.contacts-3 h2 { color:#2c3e50; }
+    p { 
+        font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+        text-align:justify; 
+        color:#2c3e50; 
+    }
 
-// Prodotti
+    .content-4, .content-4 .col-sm-4, .content-4 h3 { 
+        opacity:1; 
+    }
 
-.quadrato { margin-top:30px; }
+    .container-fluid h2 { 
+        margin-top:45px; 
+    } 
 
+    .container h1 { 
+        color:#fff; 
+    }
 
-.pointer { cursor: pointer; cursor: hand; }
+    .container h2 { 
+        color:#fff; 
+    }
 
-.center { text-align: center; }
+    td p { 
+        text-align:left; 
+    }
 
-.thumbnail-trittico { padding-top:30px; border:none;}
+    .smaller { 
+        height:280px;
+    }
 
-.thumbnail-trittico > img { width:100px; }
+    #clear { 
+        clear:both; 
+    }
 
-.thumbnail-trittico p { margin:15px 15px 0 15px; }
+/*==========  /GENERAL  ==========*/
 
-.equal { height: 404px; }
 
+/*==========  HOME  ==========*/
 
-/*-- ABOUT --*/
+    .header-1-sub .pt-page-1 .home-background {
+    background-image:url(/assets/home1.jpg);
+    opacity:0.4;
+    }
 
-.header-1-sub .pt-page-1 .about-background {
-background-image: url(/assets/about.jpg) ;
-opacity:0.4 ;
-}
+    .homey h2 { 
+        margin-bottom:-20px;
+    }
 
-/*-- AUTOMATION --*/
+    .content-4 h2 { 
+        color:#2c3e50; 
+        margin-bottom:0px; 
+    }
 
-.header-1-sub .pt-page-1 .automation-background {
-background-image: url(/assets/automationss.jpg) ;
-opacity:0.4 ;
-}
+    .content-25 h2 { 
+        color:#2c3e50; 
+        margin-bottom:0px; 
+    }
 
-.container-fluid h2 { color:#000; }
+    .content-25 { 
+        padding-top:40px;
+    }
 
-/*-- CONSTRUCTION --*/
+    .contacts-3 { 
+        padding-top:40px; 
+    }
 
-.header-1-sub .pt-page-1 .construction-background {
-background-image: url(/assets/construction.jpg) ;
-opacity:0.4 ;
-}
+    .contacts-3 h2 { 
+        color:#2c3e50; 
+    }
 
 
-.col-xs-8 ul li { 
-	color: #2c3e50; 
-	line-height:30pt; 
-}
+    /*--- Prodotti ---*/ 
 
-.col-md-7 ul li { 
-	color: #2c3e50; 
-	line-height:30pt; 
-}
+        .quadrato { 
+            margin-top:30px; 
+        }
 
-.lined { 
-    		margin-bottom:40px ;
-    	}
 
-.lined img { 
-    		display:inline-block; 
-    		margin-bottom:5px;
-    	}
+        .pointer { 
+            cursor:pointer; 
+            cursor:hand; 
+        }
 
-.aligno {margin-top:15px;}
+        .center {
+            text-align:center; 
+        }
 
-/*-- CABLEHOLDER --*/
+        .thumbnail-trittico { 
+            padding-top:30px; 
+            border:none;
+        }
 
-.header-1-sub .pt-page-1 .cableholder-background {
-background-image: url(/assets/cableholder.jpg) ;
-opacity:0.4 ;
-}
+        .thumbnail-trittico > img { 
+            width:100px; 
 
+        }
 
-/*-- FITTINGS --*/
+        .thumbnail-trittico p { 
+            margin:15px 15px 0 15px; 
+        }
 
-.header-1-sub .pt-page-1 .fittings-background {
-background-image: url(/assets/fittings.jpg) ;
-opacity:0.4 ;
-}
+        .equal { 
+            height:404px;
+        }
 
-/*-- SWITCHBOARDS --*/
+    /*--- /Prodotti ---*/ 
 
-.nav-tabs > li, .nav-pills > li {
-    float:none;
-    display:inline-block;
-    *display:inline; /* ie7 fix */
-     zoom:1; /* hasLayout ie7 trigger */
-}
 
-.nav-tabs, .nav-pills {
-    text-align:center;
-}
+/*==========  /HOME  ==========*/
 
-.col-sm-15 > .thumbnail-trittico p { text-align:justify; margin-left:20%; }
 
-.col-sm-15 > .thumbnail-trittico > img { float:left; margin-top:70px; margin-right:10px;}
 
-.btn-switchb { margin-top:15px; float:right;}
+/*==========  ABOUT  ==========*/
 
-.header-1-sub .pt-page-1 .switchboards-background {
-background-image: url(/assets/switchboards.jpg) ;
-opacity:0.4 ;
-}
+    .header-1-sub .pt-page-1 .about-background {
+        background-image:url(/assets/about.jpg);
+        opacity:0.4;
+    }
 
+/*==========  /ABOUT ==========*/
 
-/*-- CLIENTS --*/
 
-.header-1-sub .pt-page-1 .clients-background {
-background-image: url(/assets/clients.jpg) ;
-opacity:0.4 ;
-}
 
+/*==========  AUTOMATION  ==========*/
 
-/*-- CONTACTS --*/
+    .header-1-sub .pt-page-1 .automation-background {
+        background-image:url(/assets/automationss.jpg);
+        opacity:0.4;
+    }
 
-.header-1-sub .pt-page-1 .contacts-background {
-background-image: url(/assets/contacts.jpg) ;
-opacity:0.4 ;
-}
+    .container-fluid h2 { 
+        color:#000; 
+    }
 
-.content-4, .footer-6 {
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
+/*==========  /AUTOMATION  ==========*/
 
-.whity {
-	background-color:#fff ; 
-}
 
-.opac {
-	opacity: 1 ;
-}
 
-.contacts-3 {
-	background-color: #ecf0f1;
-}
+/*==========  CONSTRUCTION  ==========*/
 
-.content-4 .features > [class*="col-sm-"] {
-display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align:center;
-}
+    .header-1-sub .pt-page-1 .construction-background {
+    background-image:url(/assets/construction.jpg);
+    opacity:0.4;
+    }
 
-.content-4 .features > [class*="col-sm-"] > img:first-child {
-display: block;
-    margin-left: 31%;
-    margin-right: auto;
-    text-align:center;
-}
 
+    .col-xs-8 ul li { 
+    	color: #2c3e50; 
+    	line-height:30pt; 
+    }
 
-// Roba (forse inutile) per il mail-form.
+    .col-md-7 ul li { 
+    	color: #2c3e50; 
+    	line-height:30pt; 
+    }
 
-.hidden { display: none; }
-/*flash*/
+    .lined { 
+        margin-bottom:40px ;
+    }
 
-.alert-error {
-background-color: #f2dede;
-border-color: #eed3d7;
-color: #b94a48;
-text-align: left;
-}
+    .lined img { 
+        display:inline-block; 
+        margin-bottom:5px;
+    }
 
-.alert-alert {
-background-color: #f2dede;
-border-color: #eed3d7;
-color: #b94a48;
-text-align: left;
-}
+    .aligno {
+        margin-top:15px;
+    }
 
-.alert-success {
-background-color: #dff0d8;
-border-color: #d6e9c6;
-color: #468847;
-text-align: left;
-}
+/*==========  /CONSTRUCTION ==========*/
 
-.alert-notice {
-background-color: #dff0d8;
-border-color: #d6e9c6;
-color: #468847;
-text-align: left;
-}
+
+
+/*==========  CABLEHOLDERS  ==========*/
+
+    .header-1-sub .pt-page-1 .cableholder-background {
+        background-image:url(/assets/cableholder.jpg);
+        opacity:0.4;
+    }
+
+/*==========  /CABLEHOLDERS  ==========*/
+
+
+
+/*==========  FITTINGS  ==========*/
+
+    .header-1-sub .pt-page-1 .fittings-background {
+        background-image: url(/assets/fittings.jpg);
+        opacity:0.4;
+    }
+
+/*==========  /FITTINGS ==========*/
+
+
+
+/*==========  SWITCHBOARDS  ==========*/
+
+    .nav-tabs > li, .nav-pills > li {
+        float:none;
+        display:inline-block;
+        *display:inline; /* ie7 fix */
+        zoom:1; /* hasLayout ie7 trigger */
+    }
+
+    .nav-tabs, .nav-pills {
+        text-align:center;
+    }
+
+    .col-sm-15 > .thumbnail-trittico p { 
+        text-align:justify; 
+        margin-left:20%; 
+    }
+
+    .col-sm-15 > .thumbnail-trittico > img { 
+        float:left; 
+        margin-top:70px; 
+        margin-right:10px;
+    }
+
+    .btn-switchb { 
+        margin-top:15px; 
+        float:right;
+    }
+
+    .header-1-sub .pt-page-1 .switchboards-background {
+        background-image:url(/assets/switchboards.jpg);
+        opacity:0.4;
+    }
+
+/*==========  /SWITCHBOARDS  ==========*/
+
+
+
+/*==========  CLIENTS  ==========*/
+
+    .header-1-sub .pt-page-1 .clients-background {
+        background-image:url(/assets/clients.jpg);
+        opacity:0.4;
+    }
+
+/*==========  /CLIENTS  ==========*/
+
+
+
+/*==========  CONTACTS  ==========*/
+
+    .header-1-sub .pt-page-1 .contacts-background {
+        background-image:url(/assets/contacts.jpg);
+        opacity:0.4;
+    }
+
+    .content-4, .footer-6 {
+        padding-top:80px;
+        padding-bottom:80px;
+    }
+
+    .whity {
+    	background-color:#fff; 
+    }
+
+    .opac {
+    	opacity:1;
+    }
+
+    .contacts-3 {
+    	background-color:#ecf0f1;
+    }
+
+    .content-4 .features > [class*="col-sm-"] {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+    }
+
+    .content-4 .features > [class*="col-sm-"] > img:first-child {
+        display:block;
+        margin-left:31%;
+        margin-right:auto;
+        text-align:center;
+    }
+
+/*==========  /CONTACTS  ==========*/
+
+
+
+/*==========  MAIL-FORM  ==========*/
+
+    .hidden { display: none; }
+
+    .alert-error {
+        background-color:#f2dede;
+        border-color:#eed3d7;
+        color:#b94a48;
+        text-align:left;
+    }
+
+    .alert-alert {
+        background-color:#f2dede;
+        border-color:#eed3d7;
+        color:#b94a48;
+        text-align:left;
+    }
+
+    .alert-success {
+        background-color:#dff0d8;
+        border-color:#d6e9c6;
+        color:#468847;
+        text-align:left;
+    }
+
+    .alert-notice {
+        background-color:#dff0d8;
+        border-color:#d6e9c6;
+        color:#468847;
+        text-align:left;
+    }
+
+/*==========  /MAIL-FORM  ==========*/
 
 
 
 /*==========  MOBILE FIRST METHOD  ==========*/
 
     /*--- Custom, iPhone Retina ---*/ 
+
     @media only screen and (min-width : 320px) {
   
     	.container h1 { font-size:24px ; }
-    	.header-1-sub .lead {font-size:16px; }
+    	.header-1-sub .lead { font-size:16px; }
     	.content-4 h2 { margin-top:-20px; }
     	.content-4 .features > [class*="col-sm-"] > img:first-child { margin-left:31%; }
     	.infram { margin-top:-135px; }
         .content-25 .opac { text-align:center; }
         .content-25 p { margin-right:20px; }
-        .caption .container h2 { margin-bottom:-40px; font-size:28px !important;}
-        .festone img {margin-left:10px;}
+        .caption .container h2 { margin-bottom:-10px; font-size:35px !important; }
         .scaccomatto .lined { margin-left:3%;}
-        .trittico {
-    margin-top:30px;
-    text-align:center;
-    margin-left:0px;
-    margin-right:0px;
-    }
-    .tab-content table td p span { font-size:13px; }
+        .trittico { margin-top:30px; text-align:center; margin-left:0px; margin-right:0px; }
+        .tab-content table td p span { font-size:13px; }
+        .has-feedback label ~ .form-control-feedback { top:30px; }
+        .footer-6 .brand { line-height:25px; }
+        .contacts-3 form input, .contacts-3 form textarea { color:#fff; }
+        .second-img { margin-top:30px; }
     }
 
+    /*--- /Custom, iPhone Retina ---*/ 
+
+
     /*--- Extra Small Devices, Phones ---*/ 
+
     @media only screen and (min-width : 480px) {
    	
     	.container h1 { font-size:32px; }
-    	.header-1-sub .lead {font-size:20px; }
-        .caption .container h2 { margin-bottom:-90px; font-size:28px !important; }
-   	   .festone img {margin-left:0px;}
+    	.header-1-sub .lead { font-size:20px; }
+        .caption .container h2 { margin-bottom:-90px; font-size:35px !important; }
        .tab-content table td p span { font-size:16px; }
-       }
+       .has-feedback label ~ .form-control-feedback { top:45px; }
+    }
+
+    /*--- /Extra Small Devices, Phones ---*/ 
+
 
     /*--- Small Devices, Tablets ---*/
+
     @media only screen and (min-width : 768px) {
   	
   		.container h1 { font-size:40px ; }
         .caption .container h2 { font-size:36px !important; }
-  		.header-1-sub .lead {font-size:24px; }
+  		.header-1-sub .lead { font-size:24px; }
         .content-25 .opac img { margin-top:50px; }
         .tab-content table td p span { font-size:18px; }
-
-    .trittico {
-    margin-top:30px;
-    margin-left:60px;
-    margin-right:60px;
-    text-align:center;
-}
-    
+        ul.nav.pull-right { width:419px; }
+        .trittico { margin-top:30px; margin-left:60px; margin-right:60px; text-align:center; }
+        .auto-text { margin-top:200px; }
     }
 
+    /*--- /Small Devices, Tablets ---*/
+
+
     /*--- Medium Devices, Desktops ---*/
+
     @media only screen and (min-width : 992px) {
   
     	.header-1-sub .page-transitions .caption { bottom:100px ; } 
@@ -321,13 +453,18 @@ text-align: left;
     	.header-1-sub .lead {font-size:28px; }
     	.infram { margin-top:0px; }
         .nav { padding-right:0px; }
-        .festone { padding-left:40px; } 
         .scaccomatto { margin: 10px 60px 10px 60px; }
-}
+        .auto-text { margin-top:0; }
+    }
+
+    /*--- /Medium Devices, Desktops ---*/
+
 
     /*--- Large Devices, Wide Screens ---*/
     @media only screen and (min-width : 1200px) {
-
     }
+
+     /*--- /Large Devices, Wide Screens ---*/
+
     
 /*==========  /MOBILE FIRST METHOD  ==========*/
