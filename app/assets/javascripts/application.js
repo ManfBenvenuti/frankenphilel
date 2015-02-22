@@ -11,7 +11,6 @@
 // about supported directives.
 //
 //= require jquery
-//= require twitter/bootstrap
 //= require jquery.turbolinks
 //= require jquery.ui.button
 //= require jquery.ui.datepicker
@@ -20,6 +19,7 @@
 //= require jquery.ui.tooltip
 //= require jquery.ui.effect
 //= require jquery_ujs
+//= require twitter/bootstrap
 //= require flatui
 //= require startup_framework
 //= require turbolinks
