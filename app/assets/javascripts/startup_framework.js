@@ -1,5 +1,4 @@
 
-//= require startup-framework/common-files/js/modernizr.custom
 //= require startup-framework/common-files/js/page-transitions
 //= require startup-framework/common-files/js/jquery.scrollTo-1.4.3.1-min
 //= require startup-framework/common-files/js/jquery.parallax.min
