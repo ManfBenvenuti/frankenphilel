@@ -22,4 +22,5 @@
 //= require twitter/bootstrap
 //= require flatui
 //= require startup_framework
+//= require turbolinks
 //= require_tree .
