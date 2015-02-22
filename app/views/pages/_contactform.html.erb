@@ -3,7 +3,6 @@
   <div class="heading-contact marginbot-50">
     <div class="container">
       <div class="row">
-        <h1 style="color: #346782" class="center titolone"><strong>Get in touch</strong></h1> <br/>
       </div>
     </div>
   </div>
@@ -12,10 +11,10 @@
 
     <div class="row">
 
-      <div class="col-lg-8 col-md-offset-2">
+      <div class="col-md-5 col-md-offset-2">
         <div class="boxed-grey">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-11">
                           
               <div class="form-group">
                 <%= f.text_field :name, :required => true, label: "Your/Company Name", placeholder: 'Enter name' %>
@@ -38,15 +37,13 @@
                 </select>
               </div>
             </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="form-group">
-              <%= f.text_area :message, :required => true, placeholder: 'Message', control_col: "col-md-6", :input_html => {:rows => 9, :cols => 25} %>
+            <div class="col-md-11">
+              <div class="form-group">
+                <%= f.text_area :message, :required => true, placeholder: 'Message', control_col: "col-md-6", :input_html => {:rows => 9, :cols => 25} %>
+              </div>
             </div>
           </div>
-
-          <div class="col-md-12">
+          <div class="col-md-11">
             <%= f.submit "Send Messsage", :class=> "btn btn-primary btn-skin pull-right" %>
           </div>
         </div>
