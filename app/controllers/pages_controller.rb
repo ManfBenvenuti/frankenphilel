@@ -14,6 +14,10 @@ class PagesController < ApplicationController
   end
 
   def contacts
+
+    # Per il Mail-Form
+    @contact = Contact.new
+    
   end
 
   def products
