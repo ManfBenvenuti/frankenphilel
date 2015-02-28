@@ -1,0 +1,59 @@
+<%= bootstrap_form_for @contact do |f| %>
+    
+  <div class="heading-contact marginbot-50">
+    <div class="container">
+      <div class="row">
+      </div>
+    </div>
+  </div>
+          
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-sm-9 col-md-8">
+        <div class="boxed-grey">
+          <div class="row">
+            <div class="col-md-11">
+                          
+              <div class="form-group">
+                <%= f.text_field :name, :required => true, label: "Your/Company Name", placeholder: 'Enter name' %>
+              </div>
+              <div class="form-group">    
+                <%= f.email_field :email, :required => true, label: "Your Email Address", placeholder: 'Enter email', icon: "envelope" %>
+              </div>
+                      
+              <div class= "hidden">
+                <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" class="form-control" required="required">
+                  <option value="na" selected="">Choose One:</option>
+                  <option value="service">General Customer Service</option>
+                  <option value="suggestions">Suggestions</option>
+                  <option value="product">Product Support</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-11">
+              <div class="form-group">
+                <%= f.text_area :message, :required => true, placeholder: 'Message', control_col: "col-md-6", :input_html => {:rows => 9, :cols => 25} %>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-11">
+            <%= f.submit "Send Messsage", :class=> "btn btn-primary btn-skin pull-right" %>
+          </div>
+        </div>
+      </div> <!-- /col-lg-8 col-md-offset-2 -->       
+      <div class="widget-contact row">
+        <div class="col-lg-6">
+        </div>          
+        <div class="col-lg-6"> 
+        </div>
+      </div> 
+    </div> <!-- /Row -->
+  </div> <!-- /Container -->
+<% end %>

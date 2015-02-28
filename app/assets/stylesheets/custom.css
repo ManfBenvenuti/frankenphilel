@@ -368,6 +368,8 @@
         .footer-6 .brand { line-height:25px; }
         .contacts-3 form input, .contacts-3 form textarea { color:#fff; }
         .second-img { margin-top:30px; }
+        .contactus { margin-bottom:40px; }
+        .contactus .has-feedback label ~ .form-control-feedback { top:27px; }
     }
 
     /*--- /Custom, iPhone Retina ---*/ 
